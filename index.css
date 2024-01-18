@@ -1,0 +1,46 @@
+body{
+    overflow-x: hidden;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+.news {
+    width: 15rem;
+}
+
+.gallery {
+    width: 15rem;
+}
+
+.btn-nav {
+    color: black !important;
+    border-radius: 50px;
+    border-width: 0;
+}
+
+#scroll_btn {
+    position: fixed;
+    bottom: 20px; 
+    right: 30px; 
+    z-index: 99;  
+    }
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+@media only screen and (min-width: 1500px) {
+    .font-l {
+        font-size: x-large;
+    }
+
+    .font-xl {
+        font-size: xx-large;
+    }
+
+    .news {
+        width: 25rem;
+    }
+}

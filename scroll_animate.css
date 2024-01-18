@@ -1,0 +1,19 @@
+.animate-right{
+    transform: translateX(200%);
+}
+.show-animate .animate-right{
+    transform: translateX(0);
+}
+section .animate-right{
+    transition: 1s;
+}
+
+.animate-left{
+    transform: translateX(-200%);
+}
+.show-animate .animate-left{
+    transform: translateX(0);
+}
+section .animate-left{
+    transition: 1s;
+}
