@@ -13,7 +13,9 @@ body{
 .gallery {
     width: 15rem;
 }
-
+.page-content{
+    overflow-x: hidden;
+}
 .btn-nav {
     color: black !important;
     border-radius: 50px;
@@ -31,6 +33,24 @@ html, body {
     margin: 0;
     padding: 0;
 }
+
+.glow {
+    font-size: 80px;
+    color: #fff;
+    text-align: center;
+    animation: glow 1s ease-in-out infinite alternate;
+  }
+  
+  @-webkit-keyframes glow {
+    from {
+      color: red;
+    }
+    
+    to {
+      color: blue;
+    }
+  }
+
 @media only screen and (min-width: 1500px) {
     .font-l {
         font-size: x-large;

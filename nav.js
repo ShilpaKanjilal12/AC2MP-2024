@@ -12,44 +12,41 @@ data = `
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
 
             </ul>
-            <div class="d-flex" role="search">
+            <div class="d-flex">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <li class="nav-item mx-1 px-1">
                         <button type="button" class="btn btn-outline-light btn-nav font-l" onclick="window.location.href = 'index.html'">Home</button>
                     </li>
                     <li class="nav-item mx-1 px-1">
-                        <button type="button" class="btn btn-outline-light btn-nav font-l" onclick="window.location.href = 'about.html'">About</button>
+                        <button type="button" class="btn btn-outline-light btn-nav font-l" onclick="window.location.href = 'committee.html'">Organising
+                            Commitee</button>
                     </li>
                     <li class="nav-item mx-1 px-1">
-                        <button type="button" class="btn btn-outline-light btn-nav font-l" onclick="window.location.href = 'register.html'"
-                        >Registration</button>
+                        <button type="button" class="btn btn-outline-light btn-nav font-l" onclick="window.location.href = 'register_abstract.html'"
+                        >Registration and Abstract Submission</button>
                     </li>
                     <li class="nav-item mx-1 px-1">
-                        <button type="button" class="btn btn-outline-light btn-nav font-l" onclick="window.location.href = 'abstract.html'"
-                        >Abstract
-                            Submission</button>
+                        <button type="button" class="btn btn-outline-light btn-nav font-l" onclick="window.location.href = 'speakers.html'"
+                        >Speakers</button>
                     </li>
-                    <li class="nav-item mx-1 px-1">
-                        <button type="button" class="btn btn-outline-light btn-nav font-l" onclick="window.location.href = 'program.html'">Program</button>
-                    </li>
+                    
                     <li class="nav-item mx-1 px-1 dropdown">
                         <button type="button"
                             class="btn btn-outline-light btn-nav font-l nav-link dropdown-toggle mx-1 px-1"
                             data-bs-toggle="dropdown" aria-expanded="false"
                             style=" padding: 5%;">Information</button>
-                        <ul class="dropdown-menu">
+                        <ul class="dropdown-menu"  style="background-color: #e3f2fd;">
                             <li><a class="dropdown-item font-l" href="visa.html">Visa Information</a>
                             </li>
-                            <li><a class="dropdown-item font-l" href="#">Accomodation</a></li>
-                            <li><a class="dropdown-item font-l" href="#">Transportation</a>
+                            <li><a class="dropdown-item font-l" href="accomodation.html">Accomodation</a></li>
+                            <li><a class="dropdown-item font-l" href="transport.html">Transportation</a>
                             </li>
-                            <li><a class="dropdown-item font-l" href="#">Local Attractions</a>
+                            <li><a class="dropdown-item font-l" href="tourist.html">Local Attractions</a>
                             </li>
                         </ul>
                     </li>
                     <li class="nav-item mx-1 px-1">
-                        <button type="button" class="btn btn-outline-light btn-nav font-l" onclick="window.location.href = 'index.html'">Organising
-                            Commitee</button>
+                        <button type="button" class="btn btn-outline-light btn-nav font-l" onclick="window.location.href = 'program.html'">Program</button>
                     </li>
                 </ul>
             </div>
