@@ -38,6 +38,7 @@ data = `
                         <ul class="dropdown-menu"  style="background-color: #e3f2fd;">
                             <li><a class="dropdown-item font-l" href="visa.html">Visa Information</a>
                             </li>
+                            <li><a class="dropdown-item font-l" href="about_iitp.html">About IIT Patna</a></li>
                             <li><a class="dropdown-item font-l" href="accomodation.html">Accomodation</a></li>
                             <li><a class="dropdown-item font-l" href="transport.html">Transportation</a>
                             </li>
